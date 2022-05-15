@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./style.css" rel="stylesheet">
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div>
+      <div class="grid-name">
+          <h1>Calculator</h1>
+
+      </div>
+      <div class="grid-inputs">
+          <div class="input-1">
+              <label>Input1</label>
+              <input type="number" placeholder="enter input 1/divident" id="inp1" name="input1">
+          </div>
+          <div class="input-2">
+            <label>Input2</label>
+            <input type="number"  placeholder="enter input 2/divisor" id="inp2" name="input2">
+          </div>
+
+          <div class="result-see">
+              <label>RESULT</label>
+              <details>
+                  <span id="abox"></span>
+              </details>
+          </div>
+
+
+      </div>
+      <div class="box-buttons">
+          <div class="add">
+              <input type="button" name="Add" value="ADD" id="addy">
+          </div>
+          <div class="multiply">
+            <input type="button" name="mul" value="MULTIPLY" id="mully">
+          </div>
+          <div class="divide">
+            <input type="button" name="div" value="DIVIDE" id="divy">
+          </div>
+          <div class="subtract">
+            <input type="button" name="sub" value="SUBTRACT" id="suby">
+          </div>
+          <div class="clear">
+            <input type="button" name="clr" value="CLEAR" id="clry">
+          </div>
+      </div>
+    </div>
+  </body>
+  <script src="./script.js"></script>
+</html>
